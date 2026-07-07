@@ -1,0 +1,199 @@
+{
+  "profile": {
+    "name": "Aditya Pandey",
+    "email": "adityapandey0456@gmail.com",
+    "location": "Noida, Uttar Pradesh",
+    "phone": "+91 9634593183",
+    "summary": "B.Tech Computer Science graduate with hands-on experience in full-stack development, machine learning, and cloud technologies. Proficient in Java, MERN Stack, Python, and Microsoft Azure with experience in building scalable web applications, RESTful APIs, ML-based solutions, database optimization, API integration, and secure cloud deployments.",
+    "roles": [
+      "Software Engineer",
+      "Full Stack Developer",
+      "Java Developer"
+    ]
+  },
+
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "items": [
+        "Java",
+        "Python",
+        "C",
+        "JavaScript",
+        "SQL"
+      ]
+    },
+    {
+      "category": "Frontend Technologies",
+      "items": [
+        "React.js",
+        "HTML5",
+        "CSS3",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "category": "Backend Technologies",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "Flask",
+        "REST APIs"
+      ]
+    },
+    {
+      "category": "Databases",
+      "items": [
+        "MongoDB",
+        "MySQL"
+      ]
+    },
+    {
+      "category": "Cloud & Tools",
+      "items": [
+        "Microsoft Azure",
+        "AWS",
+        "Git",
+        "GitHub",
+        "Postman"
+      ]
+    },
+    {
+      "category": "Machine Learning",
+      "items": [
+        "Scikit-learn",
+        "TensorFlow",
+        "Keras",
+        "OpenCV",
+        "MediaPipe"
+      ]
+    },
+    {
+      "category": "Core Concepts",
+      "items": [
+        "Data Structures",
+        "Algorithms",
+        "OOPs",
+        "DBMS"
+      ]
+    }
+  ],
+
+  "experience": [
+    {
+      "company": "Grade-Up",
+      "role": "Freelancer",
+      "duration": "Apr 2025 - Present",
+      "points": [
+        "Delivered technical expertise across full-stack development, cloud computing, and machine learning domains.",
+        "Designed and developed scalable web applications integrating frontend, backend, and database systems.",
+        "Architected RESTful APIs using Node.js and SQL to improve system performance and reliability.",
+        "Implemented predictive machine learning models using Python and Scikit-learn for classification tasks.",
+        "Deployed Microsoft Azure cloud solutions including Virtual Machines and RBAC-based security configurations.",
+        "Optimized SQL queries and improved API response performance."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "SignBridge AI: ISL Learning & Communication Platform",
+      "type": "Final Year Project",
+      "duration": "2025 - 2026",
+      "tech": [
+        "Python",
+        "OpenCV",
+        "TensorFlow",
+        "Keras",
+        "MediaPipe",
+        "Tkinter"
+      ],
+      "description": [
+        "Developed a real-time Indian Sign Language recognition platform processing live video streams.",
+        "Implemented CNN-based gesture recognition model achieving high accuracy for hand sign classification.",
+        "Integrated Text-to-Sign and Speech-to-Sign modules into a multimodal learning platform.",
+        "Built an offline desktop interface using Tkinter with optimized performance."
+      ],
+      "github": "https://github.com/adityapandey0456/AI-Powered-Indian-Sign-Language-Learning-System"
+    },
+    {
+      "title": "D-Finance: Secure Fintech Routing & KYC Platform",
+      "type": "Full Stack Project",
+      "duration": "2026",
+      "tech": [
+        "React.js",
+        "Tailwind CSS",
+        "Flask",
+        "Java",
+        "JWT",
+        "REST APIs"
+      ],
+      "description": [
+        "Developed a secure fintech platform with React frontend and Flask REST API backend.",
+        "Implemented JWT authentication and secure session management.",
+        "Created automated KYC verification workflow for document processing.",
+        "Built hybrid Android functionality using Capacitor JS and Java integrations."
+      ],
+      "github": "https://github.com/adityapandey0456/D_finance"
+    },
+    {
+  "title": "NailGuard System: AI Nail Disease Detection",
+  "tech": [
+    "Python",
+    "Machine Learning",
+    "Deep Learning",
+    "OpenCV",
+    "Image Processing"
+  ],
+  "description": "Developed an AI-powered nail disease detection system using image processing and deep learning techniques to analyze nail conditions and provide intelligent predictions.",
+  "github": "https://github.com/adityapandey0456/NailGuard-System"
+},
+{
+  "title": "Train Ticket Machine System",
+  "tech": [
+    "Kotlin",
+    "Object Oriented Programming",
+    "Console Application",
+    "Data Structures"
+  ],
+  "description": "Built a console-based train ticket management system using Kotlin and OOP principles featuring ticket booking, passenger management, and structured application workflow.",
+  "github": "https://github.com/adityapandey0456/Console-based-Object-Oriented-Train-Ticket-Machine-System-developed-using-Kotlin"
+}
+
+    
+  ],
+
+  "education": [
+    {
+      "institution": "Hindustan College of Science & Technology, Mathura",
+      "degree": "B.Tech - Computer Science & Engineering",
+      "period": "2022 - 2026",
+      "cgpa": "7.0/10"
+    },
+    {
+      "institution": "Umanath Singh Higher Secondary School",
+      "degree": "Senior Secondary (XII)",
+      "year": "2022",
+      "percentage": "80%"
+    },
+    {
+      "institution": "Umanath Singh Higher Secondary School",
+      "degree": "Secondary (X)",
+      "year": "2020",
+      "percentage": "81%"
+    }
+  ],
+
+  "certifications": [
+    "SQL Certification - HackerRank (2025)",
+    "Software Engineer Intern Certification - HackerRank (2025)",
+    "Full Stack Web Development Advanced - RCPL",
+    "C with Data Structures - RCPL",
+    "Python Basic to Advanced - Udemy"
+  ],
+
+  "achievements": [
+    "Published research paper in International Scientific Journal of Engineering and Management (ISJEM) - April 2026",
+    "Tech Head - Robotics Society"
+  ]
+}
