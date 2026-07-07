@@ -17,8 +17,8 @@ const Navbar = () => {
         <div className="flex items-center gap-3 group cursor-pointer">
           <div className="w-10 h-10 rounded-full border-2 border-blue-500/50 overflow-hidden group-hover:scale-110 transition-transform">
             <img 
-              src="/profile.jpg" 
-              alt="Logo" 
+              src={`${import.meta.env.BASE_URL}profile.jpg`}
+              alt="Aditya Pandey"
               className="w-full h-full object-cover"
               onError={(e) => e.target.src = "https://ui-avatars.com/api/?name=A+P&background=3b82f6&color=fff"}
             />

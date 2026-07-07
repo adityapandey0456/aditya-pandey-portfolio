@@ -17,8 +17,9 @@ const Hero = () => {
         <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-600 via-purple-500 to-cyan-400 animate-spin-slow blur-md opacity-75" style={{ padding: '10px' }}></div>
         <div className="relative w-60 h-60 md:w-72 md:h-72 rounded-full border-4 border-white/10 bg-[#0d1117] overflow-hidden shadow-2xl">
           <img 
-            src="/profile.jpg" 
-            alt="Aditya Pandey" 
+            src={`${import.meta.env.BASE_URL}profile.jpg`}
+              alt="Aditya Pandey"
+        
             className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
             onError={(e) => e.target.src = "https://ui-avatars.com/api/?name=Aditya+Pandey&background=0D1117&color=fff&size=512"}
           />
@@ -42,23 +43,46 @@ const Hero = () => {
 
       {/* Social Links */}
       <div className="flex gap-6 mb-12">
-        {[
-          { Icon: Github, href: "https://github.com/adityapandey0456", color: "hover:text-white" },
-          { Icon: Linkedin, href: "https://www.linkedin.com/in/aditya-pandey-2442b7244", color: "hover:text-blue-400" },
-          { Icon: Mail, href: "mailto:adityapandey0456@gmail.com", color: "hover:text-red-400" }
-        ].map((item, i) => (
-          <motion.a
-            key={i}
-            whileHover={{ y: -5, scale: 1.1 }}
-            href={item.href}
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className={`p-4 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-md transition-all ${item.color}`}
-          >
-            <item.Icon size={28} />
-          </motion.a>
-        ))}
-      </div>
+  {[
+    { 
+      Icon: Github, 
+      href: "https://github.com/adityapandey0456",
+      color: "hover:text-white",
+      external: true
+    },
+    { 
+      Icon: Linkedin, 
+      href: "https://www.linkedin.com/in/aditya-pandey-2442b7244",
+      color: "hover:text-blue-400",
+      external: true
+    },
+    { 
+      Icon: Mail, 
+      href: "https://mail.google.com/mail/?view=cm&fs=1&to=adityapandey0456@gmail.com",
+      color: "hover:text-red-400",
+      external: true
+    }
+  ].map((item, i) => (
+    <motion.a
+      key={i}
+      whileHover={{ y: -5, scale: 1.1 }}
+      href={item.href}
+      target={item.external ? "_blank" : "_self"}
+      rel="noopener noreferrer"
+      className={`
+        p-4 
+        bg-white/5 
+        rounded-2xl 
+        border border-white/10 
+        backdrop-blur-md 
+        transition-all 
+        ${item.color}
+      `}
+    >
+      <item.Icon size={28} />
+    </motion.a>
+  ))}
+</div>
 
       {/* Download Resume Button */}
       <motion.a 
